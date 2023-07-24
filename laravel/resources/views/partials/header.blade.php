@@ -7,6 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-    qui l'header
+    <a href="{{route('guest.home')}}">Home</a>
+    <a href="{{route('guest.trains.index')}}">Train List</a>
 </body>
 </html>

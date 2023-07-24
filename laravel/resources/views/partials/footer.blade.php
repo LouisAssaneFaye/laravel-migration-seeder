@@ -7,6 +7,6 @@
     <title>Document</title>
 </head>
 <body>
-    qui il footer
+   
 </body>
 </html>
