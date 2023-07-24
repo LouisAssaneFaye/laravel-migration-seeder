@@ -17,15 +17,15 @@ class TrainSeeder extends Seeder
     {
         for($i=0; $i<150 ; $i++){
             $newTrain= new Train();
-            $newTrain->Azienda = $faker->name();
-            $newTrain->Stazione_di_partenza=$faker->name();
-            $newTrain->Stazione_di_arrivo=$faker->name();
-            $newTrain->Orario_di_partenza=$faker->name();
-            $newTrain->Orario_di_arrivo=$faker->name();
-            $newTrain->Codice_treno=$faker->name();
-            $newTrain->Numero_di_carrozze=$faker->name();
-            $newTrain->In_orario=$faker->name();
-            $newTrain->Cancellato=$faker->name();
+            $newTrain->azienda = $faker->name();
+            $newTrain->stazione_di_partenza=$faker->name();
+            $newTrain->stazione_di_arrivo=$faker->name();
+            $newTrain->orario_di_partenza=$faker->name();
+            $newTrain->orario_di_arrivo=$faker->name();
+            $newTrain->codice_treno=$faker->name();
+            $newTrain->numero_di_carrozze=$faker->name();
+            $newTrain->in_orario=$faker->name();
+            $newTrain->cancellato=$faker->name();
             $newTrain->save();
 
 
